@@ -9,7 +9,7 @@ disp('**************  welcome   **************');
 %% ≥ı ºªØ
 %init
 haveEmpty=true;maxEmpty=.25;
-R=100;C=100;
+R=250;C=250;
 QALL=12.4;QPRE=0.63;
 T=5;
 %wind_grade=[0 0.1 0.2 0.5 0.8]
@@ -153,7 +153,7 @@ while true
     %             arr(i,1).state<=1 || arr(i,C).state<=1
     %         out = ture;
     %     end
-    if out || Num>100
+    if out || Num>2333
         break;
     end
     imagesc(cells);
