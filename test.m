@@ -1,3 +1,3 @@
-clear
-Map = [1 0 0; 0.2 0.24 .42];colormap(Map);
-imagesc([-10:10])
+x=[1 2 3];
+x(2) = str2num(get(handle.edit1,'String')); 
+
